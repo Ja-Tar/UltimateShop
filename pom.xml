@@ -392,9 +392,9 @@
         <dependency>
             <groupId>cn.superiormc</groupId>
             <artifactId>MythicChanger</artifactId>
-            <version>1.6.9</version>
+            <version>2.4.1</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/lib/MythicChanger-1.6.9.jar</systemPath>
+            <systemPath>${project.basedir}/lib/MythicChanger-2.4.1</systemPath>
         </dependency>
         <dependency>
             <groupId>com.nexomc</groupId>
@@ -406,9 +406,9 @@
         <dependency>
             <groupId>com.bekvon.bukkit.residence</groupId>
             <artifactId>Residence</artifactId>
-            <version>5.1.6.2</version>
+            <version>5.1.7.4</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/lib/Residence5.1.6.2.jar</systemPath>
+            <systemPath>${project.basedir}/lib/Residence5.1.7.4.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>com.github.GriefPrevention</groupId>
