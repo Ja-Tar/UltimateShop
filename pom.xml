@@ -148,6 +148,10 @@
             <id>nexo-repo</id>
             <url>https://repo.nexomc.com/releases</url>
         </repository>
+        <repository>
+            <id>alessiodp</id>
+            <url>https://repo.alessiodp.com/releases/</url>
+        </repository>
     </repositories>
 
     <dependencyManagement>
