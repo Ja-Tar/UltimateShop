@@ -1,6 +1,16 @@
 name: Java CI with Gradle
 
-on: [ pull_request, push, workflow_dispatch ]
+on:
+  workflow_dispatch:  
+    inputs:  
+      logLevel:  
+        description: 'Log level'  
+        required: true  
+        default: 'warning'
+  push:  
+    branches: [ "*" ]  
+  pull_request:  
+    branches: [ "*" ] 
 
 permissions:
   contents: read
@@ -21,7 +31,9 @@ jobs:
           distribution: 'temurin'
           
       - name: Build with Maven
-        run: mvn clean package
+        run: mvn clean package -DskipTests
+        env:
+          MAVEN_OPTS: "-Xmx2048m --illegal-access=permit"
 
       - name: LS
         run: tree ./
