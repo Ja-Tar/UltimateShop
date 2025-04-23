@@ -9,3 +9,8 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "weekly"
+
+  - package-ecosystem: "maven" # Określa ekosystem pakietów jako Maven
+    directory: "/" # Ścieżka do katalogu zawierającego plik pom.xml (zmień na właściwą, jeśli jest inna)
+    schedule:
+      interval: "daily" # Jak często sprawdzać aktualizacje (np. daily, weekly, monthly)
